@@ -8,5 +8,5 @@ yarn
 ```
 
 ## run
-**PC**: npm run start:pc || yarn start:pc
+**PC**: npm run start:pc || yarn start:pc  
 **MOBILE**: npm run start:m || yarn start:m

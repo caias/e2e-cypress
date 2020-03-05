@@ -1,10 +1,11 @@
 {
-  "name": "cypress",
-  "version": "1.0.0",
+  "name": "e2e-cypress",
+  "version": "1.0.1",
   "description": "e2e test with cypress for prototyping",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:pc": "cypress open --env configFile=pc",
+    "start:mo": "cypress open --env configFile=m"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/caias/e2e-cypress/issues"
   },
-  "homepage": "https://github.com/caias/e2e-cypress#readme"
+  "homepage": "https://github.com/caias/e2e-cypress#readme",
+  "devDependencies": {
+    "cypress": "^4.1.0",
+    "fs-extra": "^8.1.0"
+  }
 }

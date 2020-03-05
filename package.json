@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start:pc": "cypress open --env configFile=pc",
-    "start:mo": "cypress open --env configFile=m"
+    "start:m": "cypress open --env configFile=m"
   },
   "repository": {
     "type": "git",

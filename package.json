@@ -1,0 +1,23 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "e2e test with cypress for prototyping",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caias/e2e-cypress.git"
+  },
+  "keywords": [
+    "e2e",
+    "cypress"
+  ],
+  "author": "caias <caias1018@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caias/e2e-cypress/issues"
+  },
+  "homepage": "https://github.com/caias/e2e-cypress#readme"
+}
